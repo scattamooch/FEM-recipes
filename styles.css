@@ -1,0 +1,62 @@
+body {
+    background-color: beige;
+    font-family: "Young Serif", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.img-container {
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+img {
+    padding-top: 5%;
+    width: 80%;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.background-div {
+    background-color: white;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.actual-text {
+
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+h1 {
+    color: black;
+}
+
+h2, li, ul, table, p {
+    color: hsl(14, 45%, 36%);
+}
+
+h3 {
+    color: hsl(332, 51%, 32%)
+}
+
+table {
+    border-collapse: collapse; /* Collapse table borders */
+    width: 100%; /* Set table width to 100% of its container */
+    padding-bottom: 5%;
+}
+
+th, td {
+    border-bottom: 1px solid #ccc; /* Add a solid line beneath each row */
+    padding-right: 10px; /* Add padding for cell content */
+
+}
